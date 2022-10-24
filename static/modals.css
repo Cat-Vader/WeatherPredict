@@ -1,15 +1,15 @@
 .modal {
-    display: none;
-    position: fixed;
-    justify-content: center;
-    align-items: center;
-    z-index: 105;
-    left: 0;
-    top: 0;
-    height: 100%;
-    width: 100%;
-    overflow: auto;
-    background-color: rgba(000, 000, 000, 0.5);
+  display: none;
+  position: fixed;
+  justify-content: center;
+  align-items: center;
+  z-index: 105;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  overflow: auto;
+  background-color: rgba(000, 000, 000, 0.6);
 }
 
 .modal-content {
@@ -26,15 +26,17 @@
   animation-duration: 1.5s;
 }
 
-.modal-content p, .modal-content h4 {
+.modal-content p,
+.modal-content h4 {
   margin: 0.3em;
 }
 
-.modal-header h2, .modal-footer h6{
+.modal-header h2,
+.modal-footer h6 {
   margin: 0;
 }
 
-.modal-header{
+.modal-header {
   text-align: center;
   font-size: 1.4rem;
   padding: 0 48%;
@@ -56,15 +58,20 @@
   font-size: 30px;
 }
 
-.modalCloseBtn:hover{
+.modalCloseBtn:hover {
   color: rgba(33, 37, 41, 1) !important;
   cursor: pointer;
   text-decoration: none;
 }
 
 @keyframes modalopen {
-  from {opacity: 0;}
-  to {opacity: 1;}
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
 }
 
 
@@ -77,14 +84,15 @@
   color: rgba(33, 37, 41, 0.6) !important;
 }
 
-.fa-clouds, .fa-cloud-music {
+.fa-clouds,
+.fa-cloud-music {
   color: rgba(33, 37, 41, 0.6) !important;
 }
-  
+
 .fa-times {
   color: rgba(33, 37, 41, 0.6) !important;
 }
-  
+
 .fa-times:hover {
   color: rgba(33, 37, 41, 1) !important;
 }
@@ -105,10 +113,12 @@
     max-width: 48%;
     margin: 40% auto;
   }
+
   #logoPartner {
     width: 20vh;
     max-width: 20vh;
   }
+
   .logoPartnerWrap h2 {
     font-size: 1.8em;
     margin-bottom: 0.8em;
@@ -162,36 +172,40 @@
     width: 92%;
     max-width: 92%;
   }
+
   .modal-content .form-group input {
     font-size: 0.9em;
   }
+
   .modal-content .buttonMargin button {
     font-size: 1em;
   }
+
   .signupBoxPartner .buttonMarginOne button {
     font-size: 0.8em;
     width: 65%;
     max-width: 65%;
   }
+
   .signupBoxPartner a {
     font-size: 0.8rem;
   }
+
   #logoPartner {
     width: 14vh;
     max-width: 14vh;
   }
+
   .logoPartnerWrap h2 {
     font-size: 1.4em;
   }
+
   .modals-header {
     font-size: 1.2rem;
   }
+
   .fa-flag-usa,
   #isdcode {
     font-size: 0.9em;
   }
 }
-
-
-  
-
