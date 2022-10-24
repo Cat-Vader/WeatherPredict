@@ -23,7 +23,7 @@
   border-radius: 0.5em;
   margin: 10% auto;
   animation-name: modalopen;
-  animation-duration: 1.5s;
+  animation-duration: 1s;
 }
 
 .modal-content p,
