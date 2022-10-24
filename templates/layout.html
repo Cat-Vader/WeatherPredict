@@ -142,6 +142,7 @@
         var city_form = document.querySelector("#city_form");
 
         city_form.addEventListener("submit", (e) => {
+            $('input').blur();
             var city_name = document.getElementById('city_name').value;
             var spinner = document.getElementById('spinner').style.display = 'flex';
             e.preventDefault();
