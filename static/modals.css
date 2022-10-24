@@ -21,7 +21,7 @@
   background: #fff;
   width: 28%;
   border-radius: 0.5em;
-  margin: 15% auto;
+  margin: 10% auto;
   animation-name: modalopen;
   animation-duration: 1.5s;
 }
@@ -37,14 +37,9 @@
 .modal-header{
   text-align: center;
   font-size: 1.4rem;
-  padding: 0;
+  padding: 0 48%;
   margin: 0;
 }
-
-.modal-header i {
-  padding: 0 0 0.2em 5.5em;
-}
-
 
 .modal-body {
   padding: 0.5em 1em;
@@ -52,7 +47,7 @@
 
 .modal-footer {
   background-color: #298AFA;
-  padding: 0.2em 0.5em;
+  padding: 0.1em 38%;
   color: #fff;
 }
 
@@ -108,6 +103,7 @@
   .modal-content {
     width: 48%;
     max-width: 48%;
+    margin: 40% auto;
   }
   #logoPartner {
     width: 20vh;
@@ -123,6 +119,7 @@
   .modal-content {
     width: 58%;
     max-width: 58%;
+    margin: 50% auto;
   }
 }
 
@@ -130,6 +127,7 @@
   .modal-content {
     width: 90%;
     max-width: 90%;
+    margin: 50% auto;
   }
 
   #logoPartner {
