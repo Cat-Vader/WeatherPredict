@@ -10,4 +10,7 @@ The website has different pages:
 3. About project page
 4. Contact me page
 
+WeatherFi is up on the Internet leveraging the power of AWS.
+This project is licensed under MIT license, so there are very few restrictions.
+Checkout WeatherFi on AWS: http://weatherfi-env.eba-tmxjgeji.us-east-1.elasticbeanstalk.com/
 Thanks! This is CS50!
