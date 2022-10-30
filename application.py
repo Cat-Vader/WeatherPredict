@@ -82,8 +82,8 @@ def index():
             return jsonify(suck=suck)
 
     # Weather reports for pre-selected cities
-    cities = ['Tianjin', 'New York', 'London', 'Shanghai', 'San Fransisco',
-              'Tokyo', 'Sydney', 'Dubai', 'Delhi', 'Paris', 'Los Angeles', 'Hong Kong', 'Mumbai', 'Singapore', 'Berlin']
+    cities = ['Tianjin', 'New York', 'London', 'Shanghai', 'San Fransisco', 'Zurich', 'Tokyo', 'Sydney', 'Dubai', 
+              'Munich', 'Delhi', 'Seoul', 'Zurich', 'Paris', 'Los Angeles', 'Melbourne', 'Hong Kong', 'Mumbai', 'Singapore', 'Berlin', 'Beijing', 'Chicago']
     reportsCards = []
 
     for i in cities:
