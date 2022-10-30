@@ -6,9 +6,9 @@ If you input a wrong city-name then it will show you a funny error message.
 The website has four different pages:
 
 1. Homepage
-2. About me page
-3. About project page
-4. Contact me page
+2. About-me page
+3. About-project page
+4. Contact-me page
 
 WeatherFi is up on the Internet leveraging the power of AWS.
 This project is licensed under MIT license, so there are very few restrictions.
