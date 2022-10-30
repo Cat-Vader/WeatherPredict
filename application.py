@@ -82,7 +82,7 @@ def index():
             return jsonify(suck=suck)
 
     # Weather reports for pre-selected cities
-    cities = ['New York', 'London', 'Shanghai',
+    cities = ['Tianjin', 'New York', 'London', 'Shanghai', 'San Fransisco',
               'Tokyo', 'Sydney', 'Dubai', 'Delhi', 'Paris', 'Los Angeles', 'Hong Kong', 'Mumbai', 'Singapore', 'Berlin']
     reportsCards = []
 
@@ -110,13 +110,15 @@ def index():
 def aboutme():
     return render_template('about_me.html')
 
+
 @application.route("/aboutproject", methods=["GET", "POST"])
 def aboutproject():
-    return render_template('about_project.html') 
+    return render_template('about_project.html')
+
 
 @application.route("/contact", methods=["GET", "POST"])
 def contact():
-    return render_template('contact.html')   
+    return render_template('contact.html')
 
 
 if __name__ == '__main__':

@@ -119,7 +119,7 @@ WeatherFi
             <p class="card-text"><i class="fa-solid fa-cloud-rain"></i> &nbsp; {{i.desc}}</p>
             {% elif i.cond == 'Clear' %}
             <p class="card-text"><i class="fa-solid fa-sun"></i> &nbsp; {{i.desc}}</p>
-            {% elif i.cond == 'Haze' or i.cond == 'Mist' %}
+            {% elif i.cond == 'Haze' or i.cond == 'Mist' or i.cond == 'Smoke' or i.cond == 'Fog' %}
             <p class="card-text"><i class="fa-solid fa-smog"></i> &nbsp; {{i.desc}}</p>
             {% elif i.cond == 'Thunderstorm' %}
             <p class="card-text"><i class="fa-solid fa-cloud-bolt"></i> &nbsp; {{i.desc}}</p>
