@@ -1,6 +1,6 @@
 This is my cs50's final project. cs50 is a Computer Science course (on-campus and online) offered by Harvard University. cs50 is quite popular among CS courses. My project name is "WeatherFi" where users can search for weather reports of any city around the globe. WeatherFi also shows the weather reports of top global cities on it's home page. There are different README.md files in different sections that explains its functionality.
 
-Type any city's name on the search bar to get the most precise weather report
+Type any city's name on the search bar to get the most precise weather report.
 If you input a wrong city-name then it will show you a funny error message.
 
 The website has four different pages:
