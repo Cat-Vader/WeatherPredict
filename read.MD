@@ -3,7 +3,7 @@ This is my cs50's final project. cs50 is a Computer Science course (on-campus an
 Type any city's name on the search bar to get the most precise weather report
 If you input a wrong city-name then it will show you a funny error message.
 
-The website has different pages:
+The website has four different pages:
 
 1. Homepage
 2. About me page
