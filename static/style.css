@@ -89,19 +89,6 @@ hideLists1 ::-webkit-scrollbar {
   margin: 0;
 }
 
-/*
-.add {
-  position: -webkit-sticky;
-  position: sticky;
-  top: 9%;
-  z-index: 999;
-}
-
-.colors {
-  background-color: rgba(255, 255, 255, 1);
-}
-*/
-
 footer {
   display: block;
   color: #ffffff;
@@ -765,18 +752,6 @@ nav button {
 .hideListsADD {
   color: #370617;
 }
-
-/*
-.custom-toggler .navbar-toggler-icon {
-  background: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 0.7)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
-  z-index: 10000;
-}
-
-.custom-toggler .navbar-toggler {
-  border-color: rgb(255,255,255);
-  z-index: 10000;
-}
-*/
 
 #herotext {
   letter-spacing: 0.2em;
