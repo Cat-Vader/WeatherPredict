@@ -677,10 +677,10 @@ select {
 }
 
 .hero-jr {
-  background: url("images/about_me/user_profile2.svg.jpg");
+  background: url("images/about_me/user_profile2.svg");
   background-position: center;
-  background-size: cover;
-  background-repeat: repeat;
+  background-size: contain;
+  background-repeat: no-repeat;
   min-height: 36vh;
   height: 60vh;
   margin-bottom: 2em;
