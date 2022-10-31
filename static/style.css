@@ -679,8 +679,8 @@ select {
 .hero-jr {
   background: url("images/about_me/cs50_cover.jpg");
   background-position: center;
-  background-size: contain;
-  background-repeat: no-repeat;
+  background-size: cover;
+  background-repeat: repeat;
   min-height: 36vh;
   height: 60vh;
   margin-bottom: 2em;
@@ -689,7 +689,7 @@ select {
 .hero-jr-contact {
   background: url("images/about_me/undraw_contact.png");
   background-position: center;
-  background-size: cover;
+  background-size: contain;
   background-repeat: no-repeat;
   min-height: 36vh;
   height: 60vh;
@@ -699,7 +699,7 @@ select {
 .hero-jr-project {
   background: url("images/about_me/projectCover.jpg");
   background-position: center;
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
   min-height: 36vh;
   height: 60vh;
