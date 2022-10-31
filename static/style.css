@@ -699,7 +699,7 @@ select {
 .hero-jr-project {
   background: url("images/about_me/projectCover.jpg");
   background-position: center;
-  background-size: cover;
+  background-size: contain;
   background-repeat: no-repeat;
   min-height: 36vh;
   height: 60vh;
